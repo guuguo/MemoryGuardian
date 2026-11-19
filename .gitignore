@@ -1,0 +1,33 @@
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Local tooling and .NET build outputs
+.codegraphcontext/
+.serena/
+.cgcignore
+*.env
+windows/**/bin/
+windows/**/obj/
+
+# Build artifacts
+dist/
+
+# Internal harness, design drafts & local agent rules (kept locally, not published)
+AGENTS.md
+docs/harness/
+docs/design-analysis/
+docs/generated-assets/
+docs/prototypes/
+docs/specs-legacy/
+docs/specs/
